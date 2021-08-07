@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Questions</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">  
+ </head>
+ <body>
+     <nav>
+          <span class="logo">GetYourExam</span>
+          <div class="left">
+              <select>
+                  <option value="0">Subject</option>
+                  <option value="1">Math1</option>
+                  <option value="2">Math1</option>
+                  <option value="3">Math1</option>
+              </select>
+             <div class="dropdown">
+                  <span data-toggle="dropdown" class="dropdown-toggle l-menu"> 
+                      language
+                  </span>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Arabic</a>
+                    <a class="dropdown-item" href="#">English</a>
+                  </div>
+            </div>
+             <a href="#" class="logout">Logout</a>
+        </div>
+        <hr>
+        <span class="links">
+             <a href="chapter.html">chapters</a>
+             <a href="question.html">questions</a>
+             <a href="exam.html">exams</a>
+             <a href="result.html">results</a>
+             <a href="#" class="logout2">Logout</a>
+        </span>
+     </nav>
+     <header>Questions</header>
+     <div class="middle ">
+         
+         <table class="table">
+          <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Question</th>
+                <th scope="col">Type</th>
+                <th scope="col">Category</th>
+                <th scope="col">Time</th>
+                <th scope="col">Degree</th>
+                <th scope="col">Chapter</th>
+                <th scope="col">CorrectA</th>
+                <th scope="col">WrongA1</th>
+                <th scope="col">WrongA2</th>
+                <th scope="col">WrongA3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td></td>
+                <td>mcq</td>
+                <td>A</td>
+                <td>1 min</td>
+                <td>2</td>
+                <td>OOP Fundamental</td>
+                <td>B</td>
+                <td>A</td>
+                <td>C</td>
+                <td>D</td>
+                <td class="edit1"><a href="#" class="btn btn-primary">edit</a></td>
+                <td class="delete1"><a href="#" class="btn btn-danger">delete</a></td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td></td>
+                <td>mcq</td>
+                <td>A</td>
+                <td>1 min</td>
+                <td>2</td>
+                <td>OOP Fundamental</td>
+                <td>B</td>
+                <td>A</td>
+                <td>C</td>
+                <td>D</td>
+                <td class="edit1"><a href="#" class="btn btn-primary">edit</a></td>
+                <td class="delete1"><a href="#" class="btn btn-danger">delete</a></td>
+            </tr>
+          </tbody>
+        </table>   
+     </div>
+     <div class="add">
+         <h4>Add New Question</h4>
+         <input type="text" name="quest" placeholder="add your question" class="f-input"><br><br>
+         <span>
+             <input type="text" name="type" placeholder="Type">
+             <input type="text" name="cat" placeholder="Category">
+             <input type="text" name="chap" placeholder="Chapter">
+             <input type="text" name="correct" placeholder="CorrectA">
+             <input type="text" name="correct" placeholder="WrongA1">
+             <input type="text" name="correct" placeholder="WrongA2">
+             <input type="text" name="correct" placeholder="WrongA3">
+         </span><br>
+             <button class="btn btn-primary">Add Question</button>
+         </div>
+     <footer>
+         <p>all rights reserved<br>&copy;2020 copyright</p> 
+     </footer>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ </body>
+</html>

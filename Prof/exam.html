@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exam</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+ </head>
+ <body>
+     <nav>
+          <span class="logo">GetYourExam</span>
+          <div class="left">
+              <select>
+                  <option value="0">Subject</option>
+                  <option value="1">Math1</option>
+                  <option value="2">Math1</option>
+                  <option value="3">Math1</option>
+              </select>
+             <div class="dropdown">
+                  <span data-toggle="dropdown" class="dropdown-toggle l-menu"> 
+                      language
+                  </span>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Arabic</a>
+                    <a class="dropdown-item" href="#">English</a>
+                  </div>
+            </div>
+             <a href="#" class="logout">Logout</a>
+        </div>
+        <hr>
+        <span class="links">
+             <a href="chapter.html">chapters</a>
+             <a href="question.html">questions</a>
+             <a href="exam.html">exams</a>
+             <a href="result.html">results</a>
+            <a href="#" class="logout2">Logout</a>
+        </span>
+     </nav>
+     <header class="exam-head">Exam Structure</header>
+     <div class="exam">
+         <div>
+             <form action="" method="post">
+                 <table class="table">
+                     <tr>
+                         <td>
+                            <span class="lbl">Start time of exam:</span> 
+                         </td>
+                         <td>
+                            <input type="time" name="stime"> 
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <span class="lbl">End time of exam:</span>
+                         </td>
+                         <td>
+                             <input type="time" name="etime">
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <span class="lbl">Number of exam question:</span>
+                         </td>
+                         <td>
+                             <input type="number" name="e-question">
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <label class="lbl">Number of every chapter questions:</label>
+                         </td>
+                         <td>
+                             <input type="number" name="ch-question">
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <label class="lbl">Number of hard questions of every chapter:</label>
+                         </td>
+                         <td>
+                             <input type="number" name="h-question">
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <label class="lbl">Number of intermediate questions of every chapter:</label>
+                         </td>
+                         <td>
+                             <input type="number" name="i-question">
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <label class="lbl">Number of easy questions of every chapter:</label>
+                         </td>
+                         <td>
+                             <input type="number" name="es-question">
+                         </td>
+                     </tr>
+                 </table>
+                 <input type="submit" value="submit your exam" class="exam-sub">
+             </form>
+         </div>
+     </div>
+     <footer>
+         <p>all rights reserved<br>&copy;2020 copyright</p> 
+     </footer><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ </body>
+</html>
